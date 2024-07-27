@@ -12,3 +12,5 @@ tasks:
     silent: true
 
   build:docker: docker build -t ayasechan/randip .
+
+  push:docker: docker push ayasechan/randip
